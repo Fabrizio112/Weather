@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#root {
+    @include flex(column, center, center);
+    gap: 2rem;
+    background-color: #d4d4d4
+}
+
+#main-title {
+    margin: 1rem;
+    font-size: 4rem;
+}
+
+#main-subtitle {
+    margin-top: -2rem;
+}
+
+#main-title-nextday {
+    width: 90%;
+    font-size: 2rem;
+}

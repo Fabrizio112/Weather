@@ -1,0 +1,19 @@
+#container-app {
+    width: 90%;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 0.3rem;
+}
+
+#container-results {
+    li {
+        padding: 0.8rem 1rem;
+        font-size: 1.25rem;
+        width: 100%;
+        list-style: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0000000f;
+        }
+    }
+}
