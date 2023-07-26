@@ -2,7 +2,7 @@
 
 In this proyect was used hooks like **useState,useEffect** and technologies like **HTML,CSS,Javascript,React,Sass**
 
-**_ This proyect was built with the purpose of practising React_**
+**_This proyect was built with the purpose of practising React_**
 
 <p align="center">
 <img src="./public/clouds-sky.gif" alt="Cloudy day">
@@ -15,8 +15,8 @@ In this proyect was used hooks like **useState,useEffect** and technologies like
 Note: Already I have a same project but it was built in Vanilla Javascript , so i took a lot of ideas for this project
 
 APIs used in this project:
-- Places : [GeoDb Cities Api]("https://rapidapi.com/wirefreethought/api/geodb-cities/")
-- Weather: [WeatherApi]("https://www.weatherapi.com/")
+- Places : [GeoDb Cities Api](https://rapidapi.com/wirefreethought/api/geodb-cities/)
+- Weather: [WeatherApi](https://www.weatherapi.com/)
 
 My idea was when user searchs in search bar whatever place in the entire world ,can selects any and when user selects it the app will render the actual weather and weather in the next days
 
