@@ -58,7 +58,7 @@ function WeatherApp() {
         <div id="container-app">
             <WeatherSearchBar setPlace={setPlace} place={place} />
             <div id="container-results">
-                {places.length != 0 && places.data.map((place) => <CityItem place={place} handleClick={handleClick} />)}
+                {places.length != 0 && places.data.map((place, index) => <CityItem key={index} place={place} handleClick={handleClick} />)}
             </div>
         </div >
         {infoPlaceSelected.length != 0 && <WeatherIndividualInfo infoPlaceSelected={infoPlaceSelected} />}

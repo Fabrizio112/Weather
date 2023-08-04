@@ -5,10 +5,12 @@
     font-family: sans-serif;
 }
 
+
 #root {
     @include flex(column, center, center);
     gap: 2rem;
-    background-color: #d4d4d4
+    background-color: #d4d4d4;
+    height: 100vh;
 }
 
 #main-title {
