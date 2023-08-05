@@ -32,7 +32,7 @@ function WeatherApp() {
 
     useEffect(() => {
         {
-            coordsPlaceSelected != null && fetch(`http://api.weatherapi.com/v1/forecast.json?key=${APIKEY}&q=${coordsPlaceSelected.latitude},${coordsPlaceSelected.longitude}&days=7`)
+            coordsPlaceSelected != null && fetch(`https://api.weatherapi.com/v1/forecast.json?key=${APIKEY}&q=${coordsPlaceSelected.latitude},${coordsPlaceSelected.longitude}&days=7`)
                 .then(res => res.ok ? res.json() : Promise.reject(res))
                 .then(json => {
                     setPlace(`${coordsPlaceSelected.city} ${coordsPlaceSelected.country}`)
