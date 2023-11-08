@@ -14,14 +14,14 @@ En este proyecto se usaron hooks como **useState,useEffect** , tecnologias como 
 
 **_Idea Principial: Aplicacion del clima que cuando se busque cualquier lugar del mundo se pueda saber su clima_**
 
-Nota: Ya habia realizado el mismo proyecto pero lo habia realiza con JavaScript Vanilla , por eso tome mucha de las ideas de ese proyecto anterior para aplicarlo a este
+Nota: Ya habia realizado el mismo proyecto pero lo habia realiza con JavaScript Vanilla , por eso tome mucha de las ideas de ese proyecto anterior para aplicarlo a este.
 
 APIs usadas en este proyecto:
 - Lugares : [GeoDb Cities Api](https://rapidapi.com/wirefreethought/api/geodb-cities/)
 - Clima: [WeatherApi](https://www.weatherapi.com/)
 
 
-La idea principal fue que cuando el usuario realizara una busqueda de cualquier lugar en el mundo , pudiera seleccionar ese lugar en la aplicacion y que se muestre por pantalla el clima y su pronostico para los dias cercanos
+La idea principal fue que cuando el usuario realizara una busqueda de cualquier lugar en el mundo , pudiera seleccionar ese lugar en la aplicacion y que se muestre por pantalla el clima y su pronostico para los dias cercanos.
 
 Por lo tanto , como componente primer componente y principal realice una Barra de busqueda , que cuando el usuario escriba cualquier caracter dentro de ella , lo que contenga la barra de busqueda se almacenara en un estado llamado **_"Place"_**.
 Cree un efecto que posee de dependencia a este estado y por lo tanto cada vez que este cambie se realizara una nueva peticion a la API de **_"GeoDB Api"_** y con la informacion que traiga la respuesta de la API se almacenara en un estado llamdo **_"Places"_**
